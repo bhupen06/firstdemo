@@ -3,20 +3,20 @@
 #include<conio.h>
 void main()
          {
-           int hin,eng,phy,che,maths,total;
+           float hin,eng,phy,che,maths,total;
            float per;
            printf("Enter hindi marks :");
-           scanf("%d",&hin);
+           scanf("%f",&hin);
            printf("Enter English marks :");
-           scanf("%d",&eng);
+           scanf("%f",&eng);
            printf("Enter physics marks :");
-           scanf("%d",&phy);
+           scanf("%f",&phy);
            printf("Enter chemistry marks :");
-           scanf("%d",&che);
+           scanf("%f",&che);
            printf("Enter maths marks :");
-           scanf("%d",&maths);
+           scanf("%f",&maths);
            total=hin+eng+phy+che+maths;
-           printf("total marks=%d\n",total);
+           printf("total marks=%.2f\n",total);
            per=total/5;
            printf("your total persentage is =%.2f",per);
 

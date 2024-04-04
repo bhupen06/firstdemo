@@ -7,9 +7,9 @@ main()
          scanf("%d",&year);
          if(year%4==0)
          {
-             printf("%d is a leep year");
+             printf("%d is a leep year",year);
          }
          else{
-                ("%dis not leep year ");
+                ("%d is not leep year ",year);
               }
      }

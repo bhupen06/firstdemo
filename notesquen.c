@@ -25,13 +25,13 @@ void main()
  not1=amount/1;
  amount=amount%1;
  printf("quantity of 500 notes :%d\n",not500);
-  printf("quantity of 500 notes :%d\n",not200);
-   printf("quantity of 500 notes :%d\n",not100);
-    printf("quantity of 500 notes :%d\n",not50);
-     printf("quantity of 500 notes :%d\n",not20);
-      printf("quantity of 500 notes :%d\n",not10);
-       printf("quantity of 500 notes :%d\n",not5);
-        printf("quantity of 500 notes :%d\n",not2);
-         printf("quantity of 500 notes :%d",not1);
+  printf("quantity of 200 notes :%d\n",not200);
+   printf("quantity of 100 notes :%d\n",not100);
+    printf("quantity of 50 notes :%d\n",not50);
+     printf("quantity of 20 notes :%d\n",not20);
+      printf("quantity of 10 notes :%d\n",not10);
+       printf("quantity of 5 notes :%d\n",not5);
+        printf("quantity of 2 notes :%d\n",not2);
+         printf("quantity of 1 notes :%d",not1);
   getch();
 }

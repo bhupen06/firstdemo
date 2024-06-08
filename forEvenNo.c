@@ -1,16 +1,14 @@
+//print Even number 1 to 10
 #include<stdio.h>
 #include<conio.h>
-main()
-    {
+void main()
+     {
      int i;
-     printf("enter number : ");
-     scanf("%d",&i);
-
-     for(i;i<=1000;i++)
+     for(i=1;i<=10;i++)
         {
           if(i%2==0)
             {
-              printf("%d\n",i);
+              printf("%d ",i);
             }
         }
         getch();

@@ -10,5 +10,5 @@ void main()
     //  b/=b;
     // printf("a = %d\nb = %d\n",a,b);
     b%=a;
-    printf("a = %d\nb = %d\n",a,b);//a=12,b=5
+    printf("a = %d\n b = %d\n",a,b);//a=12,b=5
 }

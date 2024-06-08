@@ -1,7 +1,7 @@
 /*abslute value of integer*/
 #include<stdio.h>
 #include<conio.h>
-main()
+void main()
     {
       int n;
       printf("Enter number :");

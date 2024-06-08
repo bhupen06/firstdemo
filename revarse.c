@@ -2,7 +2,7 @@
 void main()
 {
  int num,r,s,t,rev;
- printf("enter number");
+ printf("enter number : ");
  scanf("%d",&num);
  r=num/100;
  s=(num/10)%10;

@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-main()
-     {
+void main()
+    {
           int a,b,c,d,sum,mul;
           char button;
           printf("for addition prash on 1(+), ");
           printf("for multiplication prash on 2(*), ");
-         scanf("%c",&button);
+          scanf("%c",&button);
              printf("Enter First Number :");
              scanf("%d",&a);
 
@@ -20,7 +20,7 @@ main()
              scanf("%d",&d);
              printf("\n");
 
-          switch(button)
+             switch(button)
                 {
                   case '1' :  sum=a+b+c+d;
                              printf("addition : %d",sum);
@@ -33,27 +33,27 @@ main()
                  break;
                 }
                   printf("\n\n");
-
-         if(a>b&&a>b&&a>d)
+           
+           if(a>b&&a>b&&a>d)
            {
              printf("your greatest number is : %d\n",a);
            }
 
-         else if(b>a&&b>c&&b>d)
+           else if(b>a&&b>c&&b>d)
                {
                  printf("your greatest number is : %d",b);
                }
 
-         else if(c>a&&c>b&&c>d)
+           else if(c>a&&c>b&&c>d)
                 {
                   printf("your greatest number is  : %d",c);
                }
 
-        else if(d>a&&d>b&&d>c)
+           else if(d>a&&d>b&&d>c)
                {
                  printf("your greatest number is  : %d\n",d);
                }
      getch();
 
-     }
+    }
 

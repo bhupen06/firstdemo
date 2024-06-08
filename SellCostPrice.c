@@ -1,7 +1,7 @@
 /*Sell and Cost price*/
 #include<stdio.h>
 #include<conio.h>
-main()
+void main()
      {
        int cp,sp;
        printf("Enter cost price :");
